@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang"en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pomodoro Clock</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="clock.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Crimson+Text" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1 class="title">Pomodoro<br>Clock</h1>
+    <div class="settings">
+    <div class="setting">
+        <h4 class="headings">Session length</h4>
+        <div class="icons minus" role="button"><i class="fa fa-minus"></i></div>
+        <input id="workTime" type="number" value="25">
+        <div class="icons plus" role="button"><i class="fa fa-plus"></i></div>
+    </div>
+    <div class="setting">
+        <h4 class="headings">Break length</h4>
+        <div class="icons minus" role="button"><i class="fa fa-minus"></i></div>
+        <input id="breakTime" type="number" value="5">
+        <div class="icons plus" role="button"><i class="fa fa-plus"></i></div>
+    </div>
+    </div>
+    <div id="display">
+    <h2 id="message">Start the session</h2>
+    <div id="timeLeft"></div>
+    </div>
+</div>
+
+<script src="clock.js"></script>
+</body>
+</html>
