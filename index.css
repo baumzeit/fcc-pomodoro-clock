@@ -2,6 +2,9 @@ body, html {
     margin: 0;
     background: #2e2b2a;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -14,9 +17,8 @@ body, html {
 
 .wrapper {
     box-sizing: border-box;
-    margin: 0px auto;
-    min-height: 500px;
-    height: 100vh;
+    margin: 0 auto;
+    height: 600px;
     width: 350px;
     display: flex;
     flex-direction: column;
